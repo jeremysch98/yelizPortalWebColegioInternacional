@@ -1,0 +1,39 @@
+.header{
+    background: #333;
+    color: whitesmoke;
+    padding: 2rem 0;
+}
+
+.header a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .navigation ul li {
+         display: inline-block;
+    }
+    
+    .navigation ul li a{
+        display: block;
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+        border-radius: 0.6rem;
+    }
+    
+    .navigation ul li a:hover{
+        background: white;
+        transition: all 0.3s linear;
+        color: black;
+    }

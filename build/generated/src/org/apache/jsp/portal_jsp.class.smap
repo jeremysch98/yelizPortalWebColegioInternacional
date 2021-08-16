@@ -1,0 +1,14 @@
+SMAP
+portal_jsp.java
+JSP
+*S JSP
+*F
++ 0 portal.jsp
+portal.jsp
+*L
+1,22:44
+23,2:66,3
+25,17:72
+42:89,7
+43,30:96
+*E

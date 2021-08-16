@@ -1,0 +1,147 @@
+body {
+    overflow: hidden;
+    font-family: arial,sans-serif;
+    font-weight: 300;
+    color: #333333;
+}
+
+h1 {font-size: 70px; font-weight: 600; line-height: 80px;}
+
+h2 {font-size: 48px; margin-bottom: 30px;}
+
+h3 {font-size: 30px; margin-bottom: 30px;}
+
+p {font-size: 18px; color: #999999; line-height: 1.8; margin-bottom: 0;}
+
+section {
+    padding: 120px 0;
+}
+
+.bg-light-grey {background-color: #E8ECF1;}
+
+.bg-dark {background-color: #333333 !important;}
+
+.topmargin-xs {
+    margin-top: 15px;
+}
+.topmargin-sm {
+    margin-top: 30px;
+}
+.topmargin-lg {
+    margin-top: 60px;
+}
+
+.text-dark {color: #lalala;}
+
+.header{
+    background: #333;
+    color: whitesmoke;
+    padding: 2rem 0;
+}
+
+.header a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.logo-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+     display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border-radius: 0.6rem;
+}
+
+.navigation ul li a:hover{
+    background: white;
+    transition: all 0.3s linear;
+    color: black;
+}
+
+#hero {
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    color: #ffffff;
+}
+#hero p {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+#content {
+    overflow-y: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+}
+
+.content-center {
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+
+.portfolio-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.portfolio-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.portfolio-container:hover img {
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.carousel {
+    min-height: 240px;
+    padding: 40px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.carousel p {
+    font-size: 25px;
+    font-weight: 400;
+    color: black;
+}
+
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+}
+
+#footer a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer .list-inline .list-inline-item {
+    padding: 10px 15px;    
+}
